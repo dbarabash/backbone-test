@@ -1,17 +1,13 @@
-var MainModel =  Backbone.Model.extend({
+var MainModel = Backbone.Model.extend({
   url: '',
-  image: '',
-  header: '',
-  text: [],	
+  data: '',
   initialize: function(url) {
   	this.url = url;
   	this.fetch({
   		url: url,
   		dataType: 'json',
   		success: function(data) {
-  			this.image = data.image;
-  			this.header = data.header;
-  			this.test = data.text;
+  			this.data = data.image;
   		}
   	});
   },

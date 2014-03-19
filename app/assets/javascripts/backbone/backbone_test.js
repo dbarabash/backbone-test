@@ -4,8 +4,9 @@
 #= require_tree ./views
 #= require_tree ./routers
 
-window.BackboneTest =
-  Models: {}
-  Collections: {}
-  Routers: {}
+window.BackboneTest = {
+  Models: {},
+  Collections: {},
+  Routers: {},
   Views: {}
+};

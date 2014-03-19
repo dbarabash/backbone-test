@@ -1,23 +1,26 @@
 var MainRouter = Backbone.Router.extend({
-  main: null,
+  collection: null,
 
   initialize: function(options) {
-    main = new MainCollection();
-//    main.reset(options.mains);
+    collection = new MainCollection();
   },
 
   routes: {
-    "index"    : "index",
-    "news" 	   : "page1",
-    "about"    : "page2"
+    ""    		: "index",
+    "!/"    	: "index",
+    "!/news"	: "news",
+    "!/about"   : "about"
   },
 
   index: function() {
+  	var page = collection.getData(this.routes["news"]);
   },
 
   news: function() {
+  	var page = collection.getData(this.routes["news"]);
   },
 
   about: function() {
+  	var page = collection.getData(this.routes["about"]);
   }
 });

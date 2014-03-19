@@ -1,0 +1,652 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (1.4ms)
+Compiled main.css  (0ms)  (pid 31438)
+Compiled application.css  (4ms)  (pid 31438)
+Compiled jquery.js  (1ms)  (pid 31438)
+Compiled jquery_ujs.js  (0ms)  (pid 31438)
+Compiled underscore.js  (14ms)  (pid 31438)
+Compiled backbone.js  (0ms)  (pid 31438)
+Compiled backbone_rails_sync.js  (0ms)  (pid 31438)
+Compiled backbone_datalink.js  (0ms)  (pid 31438)
+Compiled backbone/templates/mains/edit.js  (1ms)  (pid 31438)
+Compiled backbone/templates/mains/index.js  (0ms)  (pid 31438)
+Compiled backbone/templates/mains/main.js  (0ms)  (pid 31438)
+Compiled backbone/templates/mains/new.js  (0ms)  (pid 31438)
+Compiled backbone/templates/mains/show.js  (0ms)  (pid 31438)
+Compiled backbone/models/main.js  (0ms)  (pid 31438)
+Compiled backbone/views/mains/edit_view.js  (0ms)  (pid 31438)
+Compiled backbone/views/mains/index_view.js  (0ms)  (pid 31438)
+Compiled backbone/views/mains/main_view.js  (0ms)  (pid 31438)
+Compiled backbone/views/mains/new_view.js  (0ms)  (pid 31438)
+Compiled backbone/views/mains/show_view.js  (0ms)  (pid 31438)
+Compiled backbone/routers/mains_router.js  (0ms)  (pid 31438)
+Compiled backbone/backbone_test.js  (94ms)  (pid 31438)
+Compiled main.js  (0ms)  (pid 31438)
+Compiled application.js  (155ms)  (pid 31438)
+Completed 200 OK in 233ms (Views: 233.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /main.css - 200 OK (1ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /underscore.js - 200 OK (3ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone_rails_sync.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone_datalink.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/templates/mains/edit.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/templates/mains/edit.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/backbone_test.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/backbone_test.js - 200 OK (11ms)
+
+
+Started GET "/assets/backbone/templates/mains/index.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/templates/mains/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/main.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/templates/mains/main.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/new.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/templates/mains/new.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/templates/mains/show.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/templates/mains/show.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/models/main.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/models/main.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/views/mains/edit_view.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/views/mains/edit_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/views/mains/index_view.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/views/mains/index_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/views/mains/main_view.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/views/mains/main_view.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/views/mains/new_view.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/views/mains/new_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/views/mains/show_view.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/views/mains/show_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/routers/mains_router.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /backbone/routers/mains_router.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /application.js - 200 OK (37ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-03-18 10:54:09 +0200
+Served asset /main.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Compiled backbone/views/mains/about_view.js  (0ms)  (pid 31438)
+Compiled backbone/views/mains/news_view.js  (0ms)  (pid 31438)
+Compiled backbone/backbone_test.js  (26ms)  (pid 31438)
+Compiled application.js  (7ms)  (pid 31438)
+Completed 200 OK in 103ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/backbone/views/mains/about_view.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/views/mains/about_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/views/mains/news_view.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/views/mains/news_view.js - 200 OK (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /underscore.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backbone_test.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/backbone_test.js - 200 OK (9ms)
+
+
+Started GET "/assets/backbone/templates/mains/edit.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/templates/mains/edit.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/backbone/templates/mains/index.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/templates/mains/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/main.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/templates/mains/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/new.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/templates/mains/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/show.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/templates/mains/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/main.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/models/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/backbone/routers/mains_router.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /backbone/routers/mains_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-03-18 11:36:29 +0200
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 13:01:59 +0200
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (39.9ms)
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (Missing partial main/news_template, application/news_template with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/home/dmitriy/Documents/work/backbone-test/app/views"
+):
+    8: 		
+    9: 	</div>
+    10: </div>
+    11: <%= render :partial => "news_template" %>
+  app/views/main/index.html.erb:11:in `_app_views_main_index_html_erb__3730989439579318987_70343008051780'
+
+
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 13:03:04 +0200
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (Missing partial main/news_template, application/news_template with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/home/dmitriy/Documents/work/backbone-test/app/views"
+):
+    8: 		
+    9: 	</div>
+    10: </div>
+    11: <%= render :partial => "news_template" %>
+  app/views/main/index.html.erb:11:in `_app_views_main_index_html_erb__3730989439579318987_70343008051780'
+
+
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 13:03:14 +0200
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (18.1ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (Missing partial main/news_template, application/news_template with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/home/dmitriy/Documents/work/backbone-test/app/views"
+):
+    8: 		
+    9: 	</div>
+    10: </div>
+    11: <%= render :partial => "news_template" %>
+  app/views/main/index.html.erb:11:in `_app_views_main_index_html_erb__1081803326479243144_14069620'
+
+
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 13:05:06 +0200
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (Missing partial main/news_template with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/home/dmitriy/Documents/work/backbone-test/app/views"
+):
+    8: 		
+    9: 	</div>
+    10: </div>
+    11: <%= render :partial => "main/news_template" %>
+  app/views/main/index.html.erb:11:in `_app_views_main_index_html_erb__1081803326479243144_70323685844460'
+
+
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/dmitriy/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Processing by MainController#index as HTML
+  Rendered main/_news_template.html.erb (0.8ms)
+  Rendered main/index.html.erb within layouts/application (1.8ms)
+Compiled backbone/models/main.js  (0ms)  (pid 567)
+Compiled backbone/views/mains/about_view.js  (0ms)  (pid 567)
+Compiled backbone/backbone_test.js  (2ms)  (pid 567)
+Compiled application.js  (6ms)  (pid 567)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /main.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /underscore.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone_rails_sync.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone_datalink.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/backbone_test.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/backbone_test.js - 200 OK (16ms)
+
+
+Started GET "/assets/backbone/templates/mains/edit.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/templates/mains/edit.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/mains/index.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/templates/mains/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/main.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/templates/mains/main.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/backbone/templates/mains/new.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/templates/mains/new.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/templates/mains/show.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/templates/mains/show.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/models/main.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/models/main.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/views/mains/about_view.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/views/mains/about_view.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/views/mains/news_view.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/views/mains/news_view.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /main.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/routers/mains_router.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /backbone/routers/mains_router.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 13:07:05 +0200
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 15:08:39 +0200
+Processing by MainController#index as HTML
+  Rendered main/_news_template.html.erb (1.0ms)
+  Rendered main/index.html.erb within layouts/application (1.6ms)
+Compiled backbone/views/mains/about_view.js  (0ms)  (pid 567)
+Compiled backbone/backbone_test.js  (2ms)  (pid 567)
+Compiled application.js  (6ms)  (pid 567)
+Completed 200 OK in 64ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone_datalink.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/backbone/backbone_test.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/backbone_test.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/backbone/templates/mains/edit.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/templates/mains/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/index.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/templates/mains/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/main.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/templates/mains/main.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/templates/mains/show.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/templates/mains/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/new.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/templates/mains/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/main.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/models/main.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/views/mains/about_view.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/views/mains/about_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/views/mains/news_view.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/views/mains/news_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/routers/mains_router.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /backbone/routers/mains_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-03-18 15:08:40 +0200
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Processing by MainController#index as HTML
+  Rendered main/_news_template.html.erb (0.3ms)
+  Rendered main/index.html.erb within layouts/application (0.7ms)
+Compiled backbone/views/mains/about_view.js  (0ms)  (pid 567)
+Compiled backbone/routers/mains_router.js  (0ms)  (pid 567)
+Compiled backbone/backbone_test.js  (2ms)  (pid 567)
+Compiled application.js  (7ms)  (pid 567)
+Completed 200 OK in 71ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /main.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone_datalink.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/backbone/templates/mains/edit.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/templates/mains/edit.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/backbone/templates/mains/index.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/templates/mains/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/new.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/templates/mains/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backbone_test.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/backbone_test.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/backbone/templates/mains/main.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/templates/mains/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/main.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/models/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/show.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/templates/mains/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/mains/news_view.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/views/mains/news_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/mains/about_view.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/views/mains/about_view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone/routers/mains_router.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /backbone/routers/mains_router.js - 200 OK (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:32 +0200
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Processing by MainController#index as HTML
+  Rendered main/_news_template.html.erb (0.4ms)
+  Rendered main/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone_rails_sync.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone_datalink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/edit.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/templates/mains/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/index.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/templates/mains/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/backbone_test.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/backbone_test.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/backbone/templates/mains/main.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/templates/mains/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/new.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/templates/mains/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/models/main.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/models/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/templates/mains/show.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/templates/mains/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/mains/about_view.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/views/mains/about_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/views/mains/news_view.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/views/mains/news_view.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone/routers/mains_router.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /backbone/routers/mains_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 18:48:36 +0200
+Served asset /application.js - 304 Not Modified (1ms)
