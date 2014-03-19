@@ -1,10 +1,11 @@
 var MainModel = Backbone.Model.extend({
-  url: '',
+  id: '',
   data: '',
-  initialize: function(url) {
-  	this.url = url;
+  initialize: function(id) {
+  	this.id = id;
+  	window.BackboneTest.Models[id] = this;
   	this.fetch({
-  		url: url,
+  		url: id,
   		dataType: 'json',
   		success: function(data) {
   			this.data = data.image;
@@ -15,10 +16,13 @@ var MainModel = Backbone.Model.extend({
 
 var MainCollection = Backbone.Collection.extend({
   model: MainModel,
-  getData: function(url) {
-  	var result = this.find(function(page){ return page.get("url") == url; });
+  initialize: function() {
+  	window.BackboneTest.Collections.main = this;
+  },
+  getData: function(id) {
+  	var result = this.find(function(page){ return page.get("id") == id; });
   	if (result == null) {
-  		result == new MainModel(url);
+  		result == new MainModel(id);
   	}
   	return result;
   }
