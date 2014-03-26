@@ -1,8 +1,7 @@
 var MainRouter = Backbone.Router.extend({
-  collection: null,
 
-  initialize: function(options) {
-    collection = new MainCollection();
+  initialize: function() {
+  	window.BackboneTest.Routers["router"] = this;
   },
 
   routes: {
@@ -13,14 +12,14 @@ var MainRouter = Backbone.Router.extend({
   },
 
   index: function() {
-  	var page = collection.getData(this.routes["news"]);
+//  	var page = collection.get("news");
   },
 
   news: function() {
-  	var page = collection.getData(this.routes["news"]);
+//  	var page = collection.get("news");
   },
 
   about: function() {
-  	var page = collection.getData(this.routes["about"]);
+//  	var page = collection.get("about");
   }
 });

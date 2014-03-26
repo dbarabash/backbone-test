@@ -1,38 +1,49 @@
 var PageView = Backbone.View.extend({
-  el: null,
   id: null,
+  el: 'body',
   
-  template: _.template("#dataTemplate"),
-
-  initialize: function(id) {
-  	this.id = id;
-  	window.BackboneTest.Views[id] = this;
-    this.bind('page:load', this.pageLoad, this);
+  initialize: function(e) {
+  	this.id = e.id;
+  	window.BackboneTest.Views[e.id] = this;
+	this.collection.add({ id: this.id });
+	this.model = this.collection.get(this.id);
+//   	this.model.on('change',this.render,this);
+//   	this.model.on('change:selected',this.render,this);
   },
 
   render: function() {
-  	this.$el.html(this.template(this.model.get(this.id)));
+	var element = $("#dataTemplate").tmpl(this.model.toJSON());
+	$("#data").empty();
+	element.appendTo($("#data"));
   	return this;
   },
 
   events: {
-  	"click #news": "changeToNews",
-  	"click #about": "changeToAbout"
+  	'click button': 'getPage',
   },
   
-  loadPage: function() {
-  	var that = this;
-  	this.el = $("#data");
-  	
-  	$("#" + id).bind("click", render, true);
-  },
+  getPage: function(e) {
+  	if (e.target.id != this.id) 
+  		return;
+//  	this.collection.setSelected(this.id);
+  	this.render();
+  }
 
 });
 
 $(function(){
-  var collection = new MainCollection(element.id);
+
+  var router = new MainRouter(); // Создаём контроллер
+  Backbone.history.start();  // Запускаем HTML5 History push    
+
+  var mainCollection = new MainCollection(null, false);
   $("button").each(function(index, element){
-  	window.BackboneTest.Views[element.id] = new PageView(element.id);
-  	window.BackboneTest.Views[element.id].trigger('page:load');
+  	var elid = $(element)[0].id;
+  	window.BackboneTest.Views[elid] = new PageView({
+  		id: elid, 
+  		collection: mainCollection
+  	});
   });
+  
+  setTimeout(function(){$("#news").click()},500);
 });

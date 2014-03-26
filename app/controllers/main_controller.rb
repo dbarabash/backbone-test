@@ -1,4 +1,7 @@
 class MainController < ApplicationController
+  
+  layout false, except: :index
+  
   def index
   end
 

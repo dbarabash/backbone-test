@@ -1,9 +1,9 @@
 BackboneTest::Application.routes.draw do
-  get "main/index"
+  match 'index' => 'main#index'
 
-  get "main/news"
+  match 'news' => 'main#news'
 
-  get "main/about"
+  match 'about' => 'main#about'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -2,10 +2,14 @@
 	{{if header}}
 		<h3 class="header">${header}</h3>
 	{{/if}}
-	{{if image}}
-		<%= link_to image_tag('${image}'), :class => "leftimg" %>
-	{{/if}}
-	{{each text}}
-		<p>${$value}</p>
-	{{/each}}
+	<div class="img">
+		{{if image}}
+			<%= link_to image_tag('${image}'), :class => "leftimg" %>
+		{{/if}}
+	</div>
+	<div class="text">
+		{{each text}}
+			<p class='righttext'>${$value}</p>
+		{{/each}}
+	</div>
 </script>
