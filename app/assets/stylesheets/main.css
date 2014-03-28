@@ -10,27 +10,7 @@
   text-align:center;
 }
 
-.img {
-  float: left;
-  width: 1200px;
-  position: relative;
-}
-
 .leftimg {
-/*  float: left;
+  float: left;
   margin: 7px 7px 7px 0;
-*/
-}
-
-.righttext {
-/*  float: right;
- * 
- */
-}
-
-.text {
-  float: right;
-  width: 1200px;
-/*  position: absolute;
-*/
 }

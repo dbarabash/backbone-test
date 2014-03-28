@@ -5,21 +5,8 @@ var MainRouter = Backbone.Router.extend({
   },
 
   routes: {
-    ""    		: "index",
-    "!/"    	: "index",
-    "!/news"	: "news",
-    "!/about"   : "about"
+    ""    		: "getnews",
+    "news"		: "getnews",
+    "about"   	: "getabout"
   },
-
-  index: function() {
-//  	var page = collection.get("news");
-  },
-
-  news: function() {
-//  	var page = collection.get("news");
-  },
-
-  about: function() {
-//  	var page = collection.get("about");
-  }
 });

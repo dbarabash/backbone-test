@@ -36,14 +36,6 @@ var MainCollection = Backbone.Collection.extend({
   	window.BackboneTest.Collections["main"] = this;
   },
   
-/*  getData: function(id) {
-  	var result = this.find(function(page){ return page.get("id") == id; });
-  	if (result == null) {
-  		result = new MainModel({'id': id});
-  	}
- 	return result;
-  },
-*/  
   setSelected: function(smod) {
   	if (this.selectedModel) {
   	  this.selectedModel.unselect();

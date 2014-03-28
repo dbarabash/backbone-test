@@ -10,3 +10,22 @@ window.BackboneTest = {
   Routers: {},
   Views: {}
 };
+
+
+$(function(){
+
+  var route = new MainRouter(); // Создаём контроллер
+  Backbone.history.start();  // Запускаем HTML5 History push    
+
+  var mainCollection = new MainCollection(null, false);
+  $("button").each(function(index, element){
+  	var elid = $(element)[0].id;
+  	window.BackboneTest.Views[elid] = new PageView({
+  		id: elid, 
+  		collection: mainCollection,
+  		router: route,
+  	});
+  });
+  
+  setTimeout(function(){ $("#news").click(); }, 50);
+});
